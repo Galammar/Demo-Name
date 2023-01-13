@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Grand Gift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="adressMe()">
+    <div class="centered">
+        <div id="nav" class="nav">
+            <span class="register">Home</span>
+            <a href="profile.html" class="register">Register</a>
+        </div>
+        <h2 id="adress"></h2>
+
+        <span id="registryTag" class="registryTag" hidden>Your registry data:</span>
+        <div id="registryData"></div>
+
+        <button id="logOut" onclick="location.reload(); localStorage.clear()" hidden>Log out</button>
+
+        <!-- Shop -->
+        <h1>The Grand Gift!</h1>
+
+        <div id="shoppingSpace">
+            <p>Items you may like:</p>
+
+            <!-- Main Shop Space Start -->
+            <ul>
+                <li onclick="definePaketo(0)">
+                    <img src="ProducsImages/pageDYNAMIC.gif" alt="pageDYNAMIC">
+                    <a href="pageDYNAMIC.html">Enter page DYNAMIC - Grey Pac</a>
+                    <p></p>
+                </li>
+                <li onclick="definePaketo(1)">
+                    <img src="ProducsImages/pageDYNAMIC.gif" alt="pageDYNAMIC">
+                    <a href="pageDYNAMIC.html">Enter page DYNAMIC - Grey Pac</a>
+                    <p></p>
+                </li>
+                <li>
+                    <img src="ProducsImages/redGift.jpg" alt="Beige Offer">
+                    <a href="red.html">Red</a>
+                    <p>Simple, but with great value.</p>
+                </li>
+                <li>
+                    <img src="ProducsImages/beigeGift.jpg" alt="Beige Offer">
+                    <a href="beige.html">Beige Gift</a>
+                    <p>Not the best, but still good, this two-at-the-price-of-three offer will make things simple for
+                        you when it comes to bringing giftst to your children.</p>
+                </li>
+                <li>
+                    <img src="ProducsImages/tripleGift.jpg" alt="Beige Offer">
+                    <a href="triple.html">Triplle One</a>
+                    <p>Need a present for Christmas? Don't miss this chance! We triple the price for each of those
+                        gifts, so that you will get the feeling that you are buying something of value!</p>
+                </li>
+                <li><img src="ProducsImages/greatDeal.jpg" alt="Beige Offer">
+                    <a href="great.html">Great Deal</a>
+                    <p>Come on now... Who doesn't have somewhere around half a dosen of children needing presents for
+                        Christmas? (definitely not me, but still) This great deal will make things 500% easier for you
+                        (that's also how much we raisede the price).</p>
+                </li>
+                <li><img src="ProducsImages/bestOffer.jpg" alt="Beige Offer">
+                    <a href="best.html">Best Price</a>
+                    <p>Just what it sayes! Best price... FOR ME!</p>
+                </li>
+            </ul>
+            <!-- Main Shop Space End -->
+        </div>
+
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

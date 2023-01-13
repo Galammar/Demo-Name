@@ -1,0 +1,16 @@
+var x =  document.getElementById("productSpace")
+undefined
+x
+<div id=​"productSpace">​…​</div>​
+x.childNodes
+NodeList(9) [text, img, text, h1, text, p, text, span#price, text]0: text1: img2: text3: h14: text5: p6: text7: span#price8: textlength: 9[[Prototype]]: NodeList
+x.childNodes.img
+undefined
+x.childNodes[0]
+#text
+x.childNodes[1]
+<img src=​"ProducsImages/​redGift.jpg" alt=​"Beige Gift">​
+var imgs = x.childNodes[1]
+undefined
+imgs.src="https://www.w3schools.com/images/img_mylearning_160.png"
+'https://www.w3schools.com/images/img_mylearning_160.png'

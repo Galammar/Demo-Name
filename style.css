@@ -1,0 +1,89 @@
+.centered {
+    margin: 10%;
+    text-align: center;
+    background-color: aqua;
+    padding: 5%;
+}
+
+#nav {
+    font-size: medium;
+    font-family: sans-serif;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.register {
+    color: black;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.registryTag {
+    font-size: large;
+    font-family: sans-serif;
+    border-bottom: 2px dashed black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    margin: 1.25%;
+    border: 2px solid black;
+    float: left;
+    width: 30%;
+    height: 400px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #8dbbf7;
+}
+
+li img {
+    margin-top: 15%;
+    width: 70%;
+}
+
+li p {
+    margin: 3%;
+}
+
+#productSpace {
+    padding-bottom: 10px;
+}
+
+#productSpace img {
+    margin-top: 50px;
+    width: 300px;
+}
+
+#productSpace p {
+    border: 2px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+}
+
+#price {
+    font-size: large;
+    background-color: yellow;
+    border: solid black;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
